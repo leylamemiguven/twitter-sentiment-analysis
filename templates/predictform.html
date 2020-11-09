@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>Welcome To Sentiment Analyzer</h1>
+            <p>by Leyla Memigüven</p>
+    </div>
+
+
+    <div class="container">
+        <p style="font-size:17px">Sentiment Analysis (SA) aims to determine the attitude of a speaker, writer, or other subject with respect to some topic or the overall contextual polarity or emotional reaction to a document, interaction, or event.
+            Binary sentiment classification includes positive and negative class while multi-class sentiment classification consists of more than two classes, i.e., positive, highly positive, negative, highly negative and neutral etc.<br/>
+            This ML model has been trained using tweets from Digiturk Brodcast Media. The system classifies the tweets of Turkish text into two classes, positive and negative. Give it a try!</p>
+        <div class="form">
+            <form method="post" style="padding:2% 0">
+                <textarea name="user_tweet" placeholder="Type a tweet ...." style=" width:100%; font-size:17px"></textarea>
+                    <div class="buttonHolder" style="text-align: center; padding:20px">
+                        <button class="button is-primary is-small"  type="submit" style="padding:10px; font-size:17px" >Get Prediction</button>
+                    </div>
+            </form>
+            <p style="text-align: center; font-size:17px; color:rebeccapurple">{{prediction_text}}</p>
+        </div>
+    </div>
+</body>
+</html>
