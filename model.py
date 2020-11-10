@@ -1,6 +1,5 @@
 
 from keras.models import load_model
-import tensorflow as tf
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 
@@ -15,10 +14,8 @@ def predict(user_input_tweet):
     X = tk.texts_to_sequences(user_input_tweet)
     X = pad_sequences(X, maxlen=30)
     predicted_result = model.predict(X, batch_size=1)
-    # print(predicted_result)
 
     #get predicted result
-    # predicted_probability = 0
     status = ['positive','negative']
     if predicted_result.item(0)> predicted_result.item(1):
         status = status[1]
