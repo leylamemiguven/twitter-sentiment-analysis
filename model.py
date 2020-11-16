@@ -1,12 +1,14 @@
 
-# import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.models import load_model
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
 
 def predict(user_input_tweet):
+
+    #export Keras model in a format that the TensorFlow server can handle
+
     #load the models
-    model = load_model('/Users/leylamemiguven/Desktop/sentiment/twitter_sentiment_analysis.h5')
+    model = load_model('/Users/leylamemiguven/Desktop/sentiment/twitter_sentiment_analysis(1).h5')
 
     # load tokenizer for prediction
     tk = Tokenizer(num_words=1000, filters='!"#$%&()*+,./:;<=>?@[]^_`{|}~')
