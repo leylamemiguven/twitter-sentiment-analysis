@@ -7,7 +7,7 @@ from keras.preprocessing.sequence import pad_sequences
 def predict(user_input_tweet):
 
     #load the models
-    model = tf.keras.models.load_model('/Users/leylamemiguven/Desktop/sentiment/twitter_sentiment_analysis.h5')
+    model = tf.keras.models.load_model('/Users/leylamemiguven/Desktop/digiturk-sentiment-analysis/twitter_sentiment_analysis.h5')
 
     # load tokenizer for prediction
     tk = Tokenizer(num_words=1000, filters='!"#$%&()*+,./:;<=>?@[]^_`{|}~')
