@@ -3,11 +3,13 @@ from tensorflow import keras
 # from keras.models import load_model
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
+import h5py
+
 
 def predict(user_input_tweet):
 
     #load the models
-    model = tf.keras.models.load_model('/Users/leylamemiguven/Desktop/digiturk-sentiment-analysis/twitter_sentiment_analysis.h5')
+    model = tf.keras.models.load_model('/app/twitter_sentiment_analysis.h5')
 
     # load tokenizer for prediction
     tk = Tokenizer(num_words=1000, filters='!"#$%&()*+,./:;<=>?@[]^_`{|}~')
