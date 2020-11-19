@@ -21,7 +21,6 @@ def predict(user_input_tweet):
     # print(predicted_result)
 
     #get predicted result
-    # predicted_probability = 0
     status = ['positive','negative']
     if predicted_result.item(0)> predicted_result.item(1):
         status = status[1]
