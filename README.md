@@ -10,7 +10,6 @@ As it can be seen in the picture above, the machine learning model has classifie
 
 ![](images/image3.png)
 ![](images/image4.png)
-![](images/image2.png)
 
 
 
