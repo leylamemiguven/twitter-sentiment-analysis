@@ -10,8 +10,6 @@ As it can be seen in the picture above, the machine learning model has classifie
 
 ![Example 1 --> Positive](images/image2.png)
 
-![Example 2 --> Positive ](images/image3.png)
-
 ![Example 3 --> Negative ](images/image4.png)
 
 
