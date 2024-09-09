@@ -1,9 +1,8 @@
-
 Flask==1.1.2
 gunicorn==20.0.4
-h5py==2.10.0
+h5py==3.10.0
 Jinja2==2.11.2
-Keras==2.4.3
+Keras==2.12.0
 numpy==1.23.5
 tensorflow==2.16.2
 setuptools>=70.3.0
