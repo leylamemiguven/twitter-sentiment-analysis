@@ -2,3 +2,8 @@
 tests/
 docs/
 .git/
+lib/
+python3.7/
+venv/
+*.pyc
+__pycache__/
