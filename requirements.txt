@@ -7,4 +7,5 @@ numpy==1.23.5
 tensorflow==2.16.2
 setuptools>=70.3.0
 wheel>=0.44.0
+boto3
 
