@@ -14,7 +14,7 @@ Here the phrase "çok güzel olmuş ellerinize sağlık" translates to "This is 
 
 ![Example 3 --> Negative ]![image4](https://github.com/user-attachments/assets/216032ea-7580-4eae-a85d-34a3f2156b1c)
 
-Here the phrase "bok gibi olmuş bir daha olmasın" translates to "This is so bad like shit, please don't let it happen again".  As this is a negative sentiment, it is classified as negative. 
+Here the phrase "bok gibi olmuş bir daha olmasın" translates to "This is so bad like s*it, please don't let it happen again".  As this is a negative sentiment, it is classified as negative. 
 
 
 
