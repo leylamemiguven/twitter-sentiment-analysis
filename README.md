@@ -46,6 +46,8 @@ Here the phrase "çok güzel olmuş ellerinize sağlık" translates to "This is 
 
 Here the phrase "bok gibi olmuş bir daha olmasın" translates to "This is so bad like s*it, please don't let it happen again".  As this is a negative sentiment, it is classified as negative. 
 
+Feel free to enhance or customize this project as needed!
+
 
 
 
